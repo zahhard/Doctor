@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="button12" type="id" />
+    <item name="button13" type="id" />
+    <item name="button14" type="id" />
+    <item name="button15" type="id" />
+    <item name="guideline2" type="id" />
+    <item name="imageView3" type="id" />
+    <item name="imageView4" type="id" />
+    <item name="textView3" type="id" />
+    <item name="textView4" type="id" />
+    <item name="guideline3" type="id" />
+    <item name="guideline4" type="id" />
+    <item name="guideline5" type="id" />
+    <item name="guideline6" type="id" />
+</resources>
