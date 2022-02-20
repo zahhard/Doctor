@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">ساختمان پزشکان</string>
+    <string name="home_consuitation" translatable="false">ویزیت در خانه</string>
+    <string name="book_an_appointment" translatable="false">رزرو ویزیت</string>
+    <string name="favorite" translatable="false">علاقه مندی ها</string>
+    <string name="online_visit" translatable="false">ویزیت آنلاین</string>
+    <string name="helen_b" translatable="false">Helen B.</string>
+    <string name="new_yourk_ny" translatable="false">New Yourk, NY</string>
 </resources>
