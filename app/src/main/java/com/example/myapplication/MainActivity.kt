@@ -21,9 +21,6 @@ class MainActivity : AppCompatActivity() {
         Log.d("ACTIVITY2", "doctor" + doctor?.name)
         Toast.makeText(this,doctor?.name.toString(),Toast.LENGTH_SHORT ).show()
 
-        binding2.textView3.text = doctor?.name.toString()
-        binding2.textView.text = doctor?.adress.toString()
-        binding2.textView4.text = doctor?.phoneNumber.toString()
         title = doctor?.name.toString()
 
     }
