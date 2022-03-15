@@ -1,6 +1,7 @@
 package com.example.myapplication
 
 import android.os.Parcelable
+import androidx.lifecycle.ViewModel
 import kotlinx.android.parcel.Parcelize
 
 object Hospital {
@@ -19,4 +20,19 @@ object Hospital {
 
 @Parcelize
 data class Doctor(var name: String, var id: Int, var phoneNumber: Long, var adress: String): Parcelable
+
+class MainViewModel : ViewModel() {
+    fun name(doctor: Doctor): String{
+        return (doctor.name)
+    }
+
+    fun address(doctor: Doctor): String{
+        return (doctor.adress)
+    }
+
+    fun phone(doctor: Doctor): String{
+        return (doctor.phoneNumber.toString())
+    }
+}
+
 

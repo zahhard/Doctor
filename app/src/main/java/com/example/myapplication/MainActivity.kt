@@ -8,7 +8,7 @@ import com.example.myapplication.databinding.ActivityMain2Binding
 import com.example.myapplication.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-
+    private lateinit var viewModel: MainViewModel
     lateinit var binding2 : ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
