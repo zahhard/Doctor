@@ -39,24 +39,26 @@ class MainActivity2 : AppCompatActivity() {
 //        binding.button3.setOnClickListener { goToActivity1("button3") }
     }
 
-    private fun goToActivity1(s: String) {
+//    private fun goToActivity1(s: String) {
+//
+//        val intent = Intent(this, MainActivity::class.java)
+//
+//        if (s == "button")
+//            intent.putExtra("doctor", Hospital.doctorList[0])
+//
+//        if (s == "button2")
+//            intent.putExtra("doctor", Hospital.doctorList[1])
+//
+//        if (s == "button3")
+//            intent.putExtra("doctor", Hospital.doctorList[2])
+//
+//        startActivity(intent)
+//
+//    }
+    private fun goToActivity1(s: Int) {
 
         val intent = Intent(this, MainActivity::class.java)
-
-        if (s == "button")
-            intent.putExtra("doctor", Hospital.doctorList[0])
-
-        if (s == "button2")
-            intent.putExtra("doctor", Hospital.doctorList[1])
-
-        if (s == "button3")
-            intent.putExtra("doctor", Hospital.doctorList[2])
-
-        startActivity(intent)
-
-    }private fun goToActivity1(s: Int) {
-
-        val intent = Intent(this, MainActivity::class.java)
+        intent.putExtra("doctor", Hospital.doctorList[s-1])
         startActivity(intent)
     }
 
