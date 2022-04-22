@@ -22,7 +22,8 @@ class MainActivity2 : AppCompatActivity() {
 
         init()
 
-        var adapter = CustomAdapter(Hospital.doctorList) { doctor -> goToActivity1(doctor.id) }
+        var adapter = CustomAdapter() { doctor -> goToActivity1(doctor.id) }
+        adapter.submitList(Hospital.doctorList)
         binding.recyclerView.adapter = adapter
 
     }
